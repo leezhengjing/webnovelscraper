@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-URL = "https://www.fortuneeternal.com/novel/i-became-a-flashing-genius-at-the-magic-academy-raw-novel/chapter-140/"
+URL = "https://www.fortuneeternal.com/novel/i-became-a-flashing-genius-at-the-magic-academy-raw-novel/chapter-141/"
 html_text = requests.get(URL).text
 soup = BeautifulSoup(html_text, 'lxml')
 original = soup.findAll('p')
